@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonomous Telecom Firewall Protocol</title>
+    <style>
+        body { background-color: #0d1117; color: #c9d1d9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 40px 20px; text-align: center; }
+        .container { max-width: 650px; margin: 0 auto; background: #161b22; padding: 40px; border-radius: 12px; border: 1px solid #30363d; text-align: left; }
+        h1 { color: #58a6ff; font-size: 28px; margin-bottom: 10px; font-weight: 600; text-align: center; }
+        .tagline { text-align: center; color: #8b949e; font-size: 16px; margin-bottom: 30px; }
+        h3 { color: #f0f6fc; border-bottom: 1px solid #21262d; padding-bottom: 8px; margin-top: 25px; }
+        p, li { font-size: 15px; line-height: 1.6; color: #8b949e; }
+        ul { padding-left: 20px; }
+        .form-box { margin-top: 35px; background: #21262d; padding: 25px; border-radius: 8px; border: 1px solid #30363d; text-align: center; }
+        input[type="email"] { width: 85%; padding: 12px; margin-bottom: 15px; border-radius: 6px; border: 1px solid #30363d; background: #0d1117; color: #f0f6fc; font-size: 15px; }
+        button { background-color: #238636; color: white; border: none; padding: 12px 30px; font-size: 15px; font-weight: bold; border-radius: 6px; cursor: pointer; width: 85%; }
+        button:hover { background-color: #2ea043; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Autonomous Telecom Firewall</h1>
+        <div class="tagline">Core-Network Infrastructure Solution for Next-Gen Inbound Call Isolation</div>
+        
+        <h3>The Innovation Overview</h3>
+        <p>This architecture introduces an inline, carrier-level AI Receptionist protocol utilizing a Back-to-Back User Agent (B2BUA) pattern. The framework intercepts unrecognized inbound calls at the network signaling layer before triggering the subscriber handset, offering high-velocity, low-latency challenge-response isolation.</p>
+        
+        <h3>Key Architectural Moats</h3>
+        <ul>
+            <li><strong>The Whisper Line:</strong> Asynchronous RTP media duplication forks incoming speech to the target handset via a zero-latency WebRTC data channel, allowing live subscriber monitoring.</li>
+            <li><strong>Mid-Stream Takeover Matrix:</strong> Instantaneous SIP RE-INVITE session bridging lets users hot-swap the media loop and drop into calls seamlessly.</li>
+            <li><strong>Universal Delivery:</strong> Zero device-side apps required; fully compatible with legacy and modern telco stacks at the MNO core.</li>
+        </ul>
+
+        <div class="form-box">
+            <p style="color: #f0f6fc; font-weight: bold; margin-top: 0;">Request Enterprise Schematics or Discuss Partnerships</p>
+            <form action="https://formspree.io" method="POST">
+                <input type="email" name="email" placeholder="Enter corporate email address" required>
+                <button type="submit">Access Technical Architecture</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
